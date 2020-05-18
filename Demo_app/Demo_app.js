@@ -1,7 +1,8 @@
 let img;
 
 function preload() {
-  img = loadImage('sea-ocean_00025.jpg');
+  img = loadImage('sample1.jpg');
+}
 
 function setup() {
   createCanvas(windowWidth, windowdHeight);
@@ -12,4 +13,5 @@ function setup() {
 function keyPressed() {
   if (key === '1') {
     filter(THRESHOLD);
-}
+  }
+} 
